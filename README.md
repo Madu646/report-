@@ -99,6 +99,12 @@ There is 180 degree phase shift between input and output or the DC level shift.
 ![Image](https://github.com/user-attachments/assets/0c964316-3b66-4b0c-ae63-22b0d93d580c)
 
 Gain=-20dB
+# inference :
+1) The current equation id tells  that current is directly proportional to the width and inversly proportional to the length.
+2) The mosfet must operate in the saturation region to get desired negative gain.
+3)  A stable Q-point is achieved in the saturation region, which is essential for linear amplification
+4)  There is 180' phase diffrence between output and input
+5)  MOSFET amplifier acheives maximum gain in mid band frequency. 
 
 
 
