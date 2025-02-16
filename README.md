@@ -54,11 +54,11 @@ Rd (upon calculation) =22.6Kohm
 
 Widhth=0.3um(Vary width to get the current)
 
-Vds=0.543
+Vds=0.541v
 
 gain=-20dB(from AC analysis)
 
-Q point is (0.543,55.55uA)
+Q point is (0.541,55.55uA)
 # Tabular Column :
 
 |Width |  Current(Id) |  Vout |
