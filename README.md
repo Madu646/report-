@@ -40,5 +40,69 @@ Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 6.**AC Analysis:** Go to spice directive and give the library file path for the simulator to access the data through the path . Go to simulate option in the tab , edit simulation command , click on AC analysis 
 and mention the time of sweep as decade , no of points as 20 and frequency as .1Hz to 1THzand click on ok.Now Run to analyze the gain and frequency response of the circuit.(.ac dec 20 .1 1T)
 # CIRCUIT 1 :
+![Image](https://github.com/user-attachments/assets/b465a764-eadb-480b-b600-e1f4ce22460c)
+# Calculation :
+Power = 100uW
+
+Loop Equation: Vdd=Vds+Id*Rd
+
+P=I*V (Id=55.55 uA , Vdd=1.8V)
+
+clearly Vds=Vout; Vds>=Vgs-Vth
+
+Rd (upon calculation) =22.6Kohm 
+
+Widhth=0.3um(Vary width to get the current)
+
+Vds=0.543
+
+gain=-20dB(from AC analysis)
+
+Q point is (0.543,55.55uA)
+# Tabular Column :
+
+|Width |  Current(Id) |  Vout |
+
+|1um   |  74.2uA      | 0.122 |
+
+|0.8um |  72.7uA      | 0.155 |
+
+|0.7um |  71.65uA     | 0.18  |
+
+|0.5um |  67.2uA      | 0.27  |
+
+|0.3um |  55.55uA     | 0.543 | 
+
+# Results:
+1.**DC Analysis:**
+
+
+
+
+
+
+Id=55.55uA
+
+Vout=0.543V
+
+Width=0.3um
+
+DC Operating point : (0.543,55uA) is obtained for 0.3um Width and 180nm Length.
+
+2.**Transient Analysis:**
+
+
+Vout=0.543V
+There is 180 degree phase shift between input and output or the DC level shift.
+3.**AC Analysis:**
+
+
+Gain=-20dB
+
+
+
+
+
+
 
 
