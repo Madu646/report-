@@ -75,7 +75,7 @@ Q point is (0.543,55.55uA)
 
 # Results:
 1.**DC Analysis:**
-
+![Image](https://github.com/user-attachments/assets/cc89c473-d04e-43b0-876a-cc85adb4e72b)
 
 
 
@@ -90,12 +90,13 @@ Width=0.3um
 DC Operating point : (0.543,55uA) is obtained for 0.3um Width and 180nm Length.
 
 2.**Transient Analysis:**
-
+![Image](https://github.com/user-attachments/assets/2d6359aa-d9c0-4f9a-a694-33de7b46a88e)
 
 Vout=0.543V
 There is 180 degree phase shift between input and output or the DC level shift.
 3.**AC Analysis:**
 
+![Image](https://github.com/user-attachments/assets/0c964316-3b66-4b0c-ae63-22b0d93d580c)
 
 Gain=-20dB
 
