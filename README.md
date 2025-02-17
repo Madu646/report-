@@ -107,19 +107,22 @@ Gain=-20dB
 5)  MOSFET amplifier acheives maximum gain in mid band frequency. 
  # CIRCUIT 2:
  #### i)CIRCUIT DIAGRAM:
+ 
 
 
 
 # dc analysis:
+![Image](https://github.com/user-attachments/assets/42ba850e-8b4c-4596-bc4f-7617feb9dc59)
 
 
 
 # transient analysis:
-
+![Image](https://github.com/user-attachments/assets/34bdf3f8-d163-4f1f-84fd-23f94a985075)
 
 
 # ac analysis :
 
+![Image](https://github.com/user-attachments/assets/c2518a54-99af-4d18-bfe9-11424faa488e)
 
 
 
