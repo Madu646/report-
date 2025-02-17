@@ -105,7 +105,20 @@ Gain=-20dB
 3)  A stable Q-point is achieved in the saturation region, which is essential for linear amplification
 4)  There is 180' phase diffrence between output and input
 5)  MOSFET amplifier acheives maximum gain in mid band frequency. 
+ # CIRCUIT 2:
+ #### i)CIRCUIT DIAGRAM:
 
+
+
+# dc analysis:
+
+
+
+# transient analysis:
+
+
+
+# ac analysis :
 
 
 
