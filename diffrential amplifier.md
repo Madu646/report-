@@ -168,6 +168,38 @@ input and output swing
 
 ![ac 1](https://github.com/user-attachments/assets/3f790afc-ef6f-4237-b407-fd6b32626083)
 
+
+# Inference:  
+
+This experiment explored differential amplifier configurations: resistor-based, current source-based, and NMOS-based, each affecting gain, bandwidth, and stability differently.  
+
+- Resistor: High bandwidth, low gain, low CMRR.  
+- Current source: High gain, high CMRR, slightly lower bandwidth.  
+- NMOS (CMOSN): Highest gain.  
+
+ Best Configuration Based on Need:  
+1. High bandwidth → Resistor  
+2. Maximum gain→ NMOS (CMOSN)  
+3. Better CMRR→ Current source or NMOS (CMOSN)
+
+## result:
+1. **Circuit-1:**  
+   - The transient response confirms that the circuit behaves correctly as a differential pair.  
+   - The AC analysis indicates a decent gain and good common-mode noise rejection.  
+   - The DC analysis shows that the MOSFETs work in saturation and have equal drain currents when the input voltages match.  
+
+2. **Circuit-2:**  
+   - The transient response is more balanced, leading to better symmetry in the signals.  
+   - The AC analysis shows that this circuit has higher gain and a wider frequency range than Circuit-1.  
+   - Using a current source instead of a resistor makes the biasing more stable, as seen in the DC analysis.  
+
+3. **Circuit-3:**  
+   - The transient response ensures signal accuracy with improved performance.  
+   - The AC analysis shows even higher gain and a broader frequency range.  
+   - The DC sweep analysis confirms that the output changes as expected.  
+   - The DC analysis confirms that the MOSFET-based current source effectively controls the tail current.
+
+
 ### CIRCUIT 4:
 
 
