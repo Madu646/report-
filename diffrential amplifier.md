@@ -1,8 +1,8 @@
 ### **"Differential Amplifier"**
 
-A differential amplifier is a fundamental building block in analog circuit design, widely used in applications such as signal amplification, noise reduction, and data acquisition systems. It amplifies the difference between two input signals while rejecting common-mode noise, making it ideal for high-precision circuits, including operational amplifiers and analog front-end systems.
-
-In modern electronics, differential amplifiers play a crucial role in communication systems, biomedical instrumentation, and sensor interfaces, where signal integrity is critical. The ability to suppress external interference and unwanted signals makes them superior to single-ended amplifiers in noisy environments.
+Differentiator amplifier, also known as a differentiating amplifier or a differentiator circuit, is an operational amplifier in which output voltage is directly proportional to the input's time derivative. In simpler words, the output voltage can be modified based on the time derivative or the RC time constant.
+What does a differential amplifier do?
+The purpose of the differential amplifier is to increase the amplitude of the heart signal to a level where it can be converted into a digital form. The gain of the circuit can be adjusted by appropriate selection of external resistors connected between the output and input terminals.
 ### **question:Vdd=2.5v , p<=3mw , Vicm=1.3v, Vocm=1.25v , Vp=0.5v , vocm=1.4v**
 **Circuit 1** <br>
 ![Image](https://github.com/user-attachments/assets/4a8c18fd-31d4-42e2-84f7-ccaa40dd426d)
@@ -152,11 +152,32 @@ For approx operating Point i got width as 12.6u
 
 
 
+![trans 1](https://github.com/user-attachments/assets/1258abba-908d-48dd-bfaa-5a02670745d1)
+
+BY changing amplitude from 20mv to 500mv
+input and output swing
 
 
 
 
+![amp 1](https://github.com/user-attachments/assets/2dc7b33f-2bec-4d5d-965d-d470cdeb7393)
 
+# AC ANALYSIS:
+
+
+
+![ac 1](https://github.com/user-attachments/assets/3f790afc-ef6f-4237-b407-fd6b32626083)
+
+### CIRCUIT 4:
+
+
+![Screenshot 2025-03-04 223152](https://github.com/user-attachments/assets/6646efcb-08b5-4458-892c-9e4e8676b95d)
+
+## DC ANALYSIS:
+
+
+
+![Screenshot 2025-03-04 224318](https://github.com/user-attachments/assets/5bd7277d-3990-48a5-8ac8-94ac43c8be45)
 
 
 
