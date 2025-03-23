@@ -46,7 +46,8 @@ It=Iref+Ix.
 ![l 2](https://github.com/user-attachments/assets/999a3f1d-9ae7-40d9-8126-0a7940a32c02)
 
 # for L= 1um
-![image](https://github.com/user-attachments/assets/2fc7019a-c414-48e0-91f0-c3b7c264232d)
+![image](https://github.com/user-attachments/assets/5a89b1e5-8888-429a-9439-d255a512ab92)
+
 
 
 # Transient analysis:
@@ -60,7 +61,9 @@ Transient Analysis is used to simulate the time-domain response of a circuit whe
 
 ![Screenshot 2025-03-23 142520](https://github.com/user-attachments/assets/f3e6c49b-ad52-4c95-8ddc-dd652b266cef)
 
+the obtained gain is equal to vout/vin
 
+vout/vin = 10.15v/v
 
 # AC analysis:
 
@@ -85,4 +88,53 @@ Transient Analysis is used to simulate the time-domain response of a circuit whe
 The obtained gain is 21.4 dB and the practical value is 20dB.
 # 3dB:
 The obtained 3dB bandwidth is 316.22khz
+
+
+# For the ratio 1:2
+### Calculations:
+* Power <= 1mW
+* Vdd = 1.8V
+* I<sub>total</sub> = power/Vdd = 1mW/1.8 = 55.5mA
+* I<sub>D</sub>= I<sub>total</sub>/3 = 0.185mA.
+* 1:2 ratio = 0.185mA : 0.37mA.
+  # DC analysis:
+  1.Case 1: 180nm
+# circuit diagram:
+![image](https://github.com/user-attachments/assets/6a2c61fb-ff40-4477-bab7-c28e810dff37)
+
+# output:
+![image](https://github.com/user-attachments/assets/19442ae1-dbe3-4fea-b24b-05eb9f14d5c6)
+
+
+Vout= 1.20094V
+Vx= 1.20934V
+Itotal = 0.185mA\
+PMOSFET 1 = length is 180nm, width is 70um 
+
+PMOSFET 2 = width is 140nm
+
+NMOSFET = length is 180nm, width is 135.867um
+# case 2:
+L= 500nm
+# output:
+![image](https://github.com/user-attachments/assets/20ff9a2e-6b42-4161-9223-3bd102b50df7)
+# case 3:
+L =1um
+# output:
+![image](https://github.com/user-attachments/assets/30cb1a5a-2f3c-400a-8705-02d46b21f8ea)
+# transient analysis:
+Replace DC input with an AC signal.
+Use SINE(dc_offset, Amplitude, Frequency).
+Go to "Simulate" > "Edit Simulation Cmd" > "Transient".
+Set Stop Time: 10ms.
+Run the simulation.
+Our dc_offset = 0.854V and assume amplitude as 50mV and frequency as 1Khz.
+![image](https://github.com/user-attachments/assets/4cc70489-f8dd-40d0-9507-82765e440c0d)
+The obtained gain is 11.68v/v
+# AC analysis:
+![image](https://github.com/user-attachments/assets/83039d9f-a4ef-4b74-b2dd-2f3f37d59dea)
+
+# 3dB bandwidth:
+![image](https://github.com/user-attachments/assets/2ac97934-2c2f-465a-9ff4-43923eea5f61)
+
 
