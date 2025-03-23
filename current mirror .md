@@ -54,7 +54,7 @@ Transient Analysis is used to simulate the time-domain response of a circuit whe
 
 **Transient Analysis Parameters:**
 • Stop time: 10 ms  
-• Step time: 1 µs  
+• Step time: 2ms 
 • Time to start saving data: 0 s 
 
 
@@ -83,5 +83,6 @@ Transient Analysis is used to simulate the time-domain response of a circuit whe
 ![Screenshot 2025-03-23 143140](https://github.com/user-attachments/assets/9e23f68d-3522-4b53-bf19-64cf16d4c7d3)
 
 The obtained gain is 21.4 dB and the practical value is 20dB.
-
+# 3dB:
+The obtained 3dB bandwidth is 316.22khz
 
