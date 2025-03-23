@@ -34,7 +34,7 @@ It=Iref+Ix.
  the given W/L values to get ratio 1:1 are 2.8um/180nm.
  we need to provide vin value such a way that the circuit should be in saturation . now the provided value is 0.854v.
 
- ## output:
+ ## output for L = 180nm
 
 ![DC 1](https://github.com/user-attachments/assets/2804f44e-fb7c-4d80-823f-231d57bab637)
 
