@@ -137,4 +137,20 @@ The obtained gain is 11.68v/v
 # 3dB bandwidth:
 ![image](https://github.com/user-attachments/assets/2ac97934-2c2f-465a-9ff4-43923eea5f61)
 
+# inference:
+1)Transient analysis of the amplifier with the 1:1 current mirror configuration (L=180nm) yielded a voltage gain (Av) of 10.15 V/V , which is slightly above the design Av > 10.
+
+2)The experiment confirms that channel length modulation significantly impacts current mirror accuracy
+3)the current ix slightly increases whwn we did 1:2 ratio.
+
+# PART -B:
+# circuit diagram with aim:
+![image](https://github.com/user-attachments/assets/d8e8f8ea-a001-4c30-8789-9faacef4670f)
+
+# circuit:
+![image](https://github.com/user-attachments/assets/67de3451-8b0c-4300-b441-6a1444a78330)
+
+
+
+
 
