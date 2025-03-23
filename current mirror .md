@@ -48,3 +48,40 @@ It=Iref+Ix.
 # for L= 1um
 ![image](https://github.com/user-attachments/assets/2fc7019a-c414-48e0-91f0-c3b7c264232d)
 
+
+# Transient analysis:
+Transient Analysis is used to simulate the time-domain response of a circuit when a time-varying input (such as a sine wave or pulse) is applied. It helps in analyzing circuit behavior over time, including signal amplification, switching characteristics, and transient response.
+
+**Transient Analysis Parameters:**
+• Stop time: 10 ms  
+• Step time: 1 µs  
+• Time to start saving data: 0 s 
+
+
+![Screenshot 2025-03-23 142520](https://github.com/user-attachments/assets/f3e6c49b-ad52-4c95-8ddc-dd652b266cef)
+
+
+
+# AC analysis:
+
+**Simulation Parameters:**
+• Type of sweep: Decade  
+• Number of points per decade: 10
+• Start frequency: 0.1 Hz  
+• Stop frequency: 1 THz  
+
+**Input Signal Parameters:**
+• Waveform Type: Sine Wave  
+• Amplitude: 50 mV  
+• DC Offset: 0.854 V  
+• Frequency: 1 kHz 
+
+
+![Screenshot 2025-03-23 143049](https://github.com/user-attachments/assets/c95c174b-2c9a-4caa-8c29-824175ff301e)
+
+
+![Screenshot 2025-03-23 143140](https://github.com/user-attachments/assets/9e23f68d-3522-4b53-bf19-64cf16d4c7d3)
+
+The obtained gain is 21.4 dB and the practical value is 20dB.
+
+
