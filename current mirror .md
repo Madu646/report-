@@ -150,7 +150,20 @@ The obtained gain is 11.68v/v
 # circuit:
 ![image](https://github.com/user-attachments/assets/67de3451-8b0c-4300-b441-6a1444a78330)
 
+# dc analysis:
 
+
+![Screenshot 2025-03-24 113334](https://github.com/user-attachments/assets/d930b666-b3ed-43b3-90ff-97ec5059c650)
+as per the parameters of the differential amplifier Vdd = 2.5V, Id(M1 and M2)=0.608mA, Vout = 1.38V and as per the circuit question current mirror ratio of M3 amd M4 1:2.
+
+ we need to give Iref =0.608mA keeping L=180nm constant for all the mosfet for perfect current mirroring, by trial and error width was found to be W(4) = 3.5um, W(3) = 3.5um. W3 is double the W4 because we need to double increase the Id(M3).
+
+# Transient analysis:
+![image](https://github.com/user-attachments/assets/846f27fd-085c-4d0f-b8b2-995e48d34220)
+
+# AC analysis:
+
+![image](https://github.com/user-attachments/assets/df0b1542-3652-46e2-bff4-fa98989fa9e9)
 
 
 
