@@ -164,6 +164,7 @@ as per the parameters of the differential amplifier Vdd = 2.5V, Id(M1 and M2)=0.
 # AC analysis:
 
 ![image](https://github.com/user-attachments/assets/df0b1542-3652-46e2-bff4-fa98989fa9e9)
-
+# conclusion :
+Current mirrors play a crucial role in biasing circuits, especially in differential amplifiers, ensuring stable operation with minimal variation. By implementing NMOS current mirrors as bias voltage generators, differential amplifiers achieve better gain, stability, and power efficiency, making them a key component in modern analog IC design.
 
 
