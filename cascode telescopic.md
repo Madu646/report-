@@ -1,4 +1,4 @@
-## Cascode Telescopic Differential Amplifier and Folded Cascode OTA
+## Cascode Telescopic Differential Amplifier 
 
 The Telescopic Cascode Amplifier is known for its excellent high-frequency performance, attributed to the reduced Miller effect and high output impedance achieved through cascode stacking.
 This topology is often preferred in high-speed and low-noise applications, such as high-resolution analog-to-digital converters and data acquisition systems. However, 
